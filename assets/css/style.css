@@ -1,0 +1,40 @@
+*{
+	margin: 0;
+	padding: 0;
+	list-style: none;
+	text-decoration: none;
+	border: none;
+	outline: none;
+    font-family: 'Open Sans', sans-serif;
+    color: #fff;
+}
+
+body{
+    background-color: black !important;
+}
+
+a{
+    text-decoration: none !important;
+    color: white;
+}
+
+/* NABVAR */
+
+.img-fluid{
+    width: 3rem;
+}
+
+.bg-purple{
+    background-color: #414770;
+}
+
+/* QUIENES SOMOS */
+.bg-blue{
+    background-color: #5B85AA;
+    
+}
+
+.monserrat{
+    font-family: 'Montserrat', sans-serif;
+    text-align: justify;
+}
