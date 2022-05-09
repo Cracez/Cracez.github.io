@@ -11,6 +11,7 @@
 
 body{
     background-color: black !important;
+    padding-top: 5.625rem; /* Relleno superior igual a la altura de la cabecera*/
 }
 
 a{
@@ -27,6 +28,7 @@ a{
 .bg-purple{
     background-color: #414770;
 }
+
 
 /* QUIENES SOMOS */
 .bg-blue{
