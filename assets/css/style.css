@@ -11,7 +11,8 @@
 
 body{
     background-color: black !important;
-    padding-top: 5.625rem; /* Relleno superior igual a la altura de la cabecera*/
+    /* padding-top: 5.625rem;  */
+    /* Relleno superior igual a la altura de la cabecera*/
 }
 
 a{
@@ -62,4 +63,35 @@ a{
 /* .tooltip > .tooltip-inner{
     color: black;
 } */
+
+/* NAVBAR ACTUALIZADO */
+
+.nav-black {
+    background-color: black;
+    color: white;
+  }
+  
+  
+  .dark-celu .container {
+    background-color: transparent;
+  }
+  
+  
+  @media only screen and (max-width: 991px) {
+    
+    .dark-celu {
+      background-color: #414770;
+    }
+
+    body{
+        padding-top: 4rem;
+    }
+  
+  }
+
+  .dark-celu.scrolled {
+    background-color: #414770 !important;
+    transition: background-color 800ms linear;
+  }
+  
 

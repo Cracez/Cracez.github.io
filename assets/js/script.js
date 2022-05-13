@@ -32,3 +32,11 @@ var tooltipList = tooltipTriggerList.map(function (tooltipTriggerEl) {
   return new bootstrap.Tooltip(tooltipTriggerEl)
 })
 
+// NAVBAR ACTUALIZADO
+
+$(function () {
+  $(document).scroll(function () {
+    var $nav = $(".dark-celu");
+    $nav.toggleClass('scrolled', $(this).scrollTop() > $nav.height());
+  });
+});
