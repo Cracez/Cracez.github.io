@@ -93,5 +93,9 @@ a{
     background-color: #414770 !important;
     transition: background-color 800ms linear;
   }
+
+  .dark-celu{
+      transition: all 1s ease;
+  }
   
 
